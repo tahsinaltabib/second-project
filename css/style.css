@@ -1,5 +1,21 @@
+/* ------------------------------------------
+             common css start
+--------------------------------------------- */
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style: none;
+}
+/* ------------------------------------------
+             common css end
+--------------------------------------------- */
+/* ------------------------------------------
+             navbar css start
+--------------------------------------------- */
 nav{
   background: #1C1E53;
+  padding: 16px 0;
 }
 .navbar-nav{
   column-gap: 32px;
@@ -13,5 +29,45 @@ nav{
   padding: 0 !important;
 }
 .nav-link:hover{
-  color: khaki;
+  color: #ffff;
 }
+.nav-button{
+  background: transparent;
+  color: #ffff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border: 1px solid #f4f6fc;
+  margin-left: 48px;
+  padding: 16px 48px;
+  border-radius: 41px;
+}
+/* ------------------------------------------
+             navbar css end
+--------------------------------------------- */
+/* ------------------------------------------
+             banner css start
+--------------------------------------------- */
+.banner{
+  background: #1C1E53;
+}
+.banner h1{
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  line-height: 74px;
+}
+.banner p{
+  color: rgb(255, 255, 255,0.70);
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 562px;
+  padding-top: 16px;
+  padding-bottom: 48px;
+}
+/* ------------------------------------------
+             banner css end
+--------------------------------------------- */
+
