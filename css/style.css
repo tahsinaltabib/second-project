@@ -7,6 +7,23 @@ a{
 ul,ol{
   list-style: none;
 }
+.common-button{
+  background: #FCD980;
+  color: #1b1c2b;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  border: 1px solid transparent;
+  font-size: 18px;
+  padding: 16px 56px;
+  border-radius: 41px;
+  transition: .5s;
+  display: inline-block;
+}
+.common-button:hover{
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
 /* ------------------------------------------
              common css end
 --------------------------------------------- */
@@ -41,6 +58,12 @@ nav{
   margin-left: 48px;
   padding: 16px 48px;
   border-radius: 41px;
+  transition: .4s;
+}
+.nav-button:hover{
+  background: #FCD980;
+  color: #1b1c2b;
+  border-color: #FCD980;
 }
 /* ------------------------------------------
              navbar css end
@@ -50,6 +73,7 @@ nav{
 --------------------------------------------- */
 .banner{
   background: #1C1E53;
+  padding: 128px 0;
 }
 .banner h1{
   color: #fff;
