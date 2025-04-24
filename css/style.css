@@ -24,6 +24,19 @@ ul,ol{
   border-color: #fff;
   color: #fff;
 }
+.common-title h2{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+}
+.common-title p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #282828;
+  width: 405px;
+}
 /* ------------------------------------------
              common css end
 --------------------------------------------- */
@@ -101,14 +114,67 @@ nav{
   top: 6px;
   left: 90px;
   opacity: 0;
-  transition: .4s;
+  transition: .5s;
   font-size: 16px;
 }
 .banner .icon-button:hover .icon{
   opacity: 1;
-  left: 100px;
+  left: 110px;
 }
 /* ------------------------------------------
              banner css end
+--------------------------------------------- */
+/* ------------------------------------------
+             work css start
+--------------------------------------------- */
+.work{
+  background: #f4f6fc;
+  padding: 128px 0px;
+}
+.common-title .work-button{
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405f2;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.common-title .work-button .work-icon{
+  position: absolute;
+  top: 50%;
+  left: 190px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: .5s;
+  font-size: 16px;
+}
+.common-title .work-button:hover .work-icon{
+  opacity: 1;
+  left: 210px;
+}
+.work .box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.work .box .item{
+  width: 50%;
+}
+.work .box .item h4{
+  color: #282828;
+  font-weight: 500;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.work .box .item p{
+  color: #282828;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  width: 303px;
+}
+/* ------------------------------------------
+             work css end
 --------------------------------------------- */
 
